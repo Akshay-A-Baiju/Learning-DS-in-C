@@ -1,3 +1,5 @@
+//1. Insertion of Node using C
+//Author: Akshay A Baiju
 #include<bits/stdc++.h>
 #include<conio.h>
 using namespace std;
