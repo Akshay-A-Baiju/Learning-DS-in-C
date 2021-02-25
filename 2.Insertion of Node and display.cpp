@@ -45,11 +45,10 @@ void display()
 	else
 	{
 		node *ref=head;
-		printf("%d->",ref->data);
-		while(ref->next!=NULL)	
+		while(ref!=NULL)	
 		{
-			ref=ref->next;
 			printf("%d->",ref->data);
+			ref=ref->next;
 		}	
 		printf("\n");
 	}
