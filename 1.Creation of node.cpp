@@ -1,5 +1,7 @@
 //1. Creation of node in C
 // Author: Akshay A Baiju
+// Date: 24/02/2021
+
 #include<stdio.h>
 #include<stdlib.h>
 typedef struct node		//Defining structure of node for Singly Linked List
