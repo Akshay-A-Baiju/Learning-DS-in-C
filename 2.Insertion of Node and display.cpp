@@ -1,5 +1,6 @@
 // 2. Insertion of Node and display list
 // Author: Akshay A Baiju
+// Date: 25/02/2021
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
