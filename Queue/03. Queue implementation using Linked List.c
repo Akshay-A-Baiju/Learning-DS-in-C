@@ -44,9 +44,18 @@ void dequeue()
 		printf("UNDERFLOW !!!");
 		return;
 	}
-	node *p=front;
-	front=front->next;                                      //move front to front->next and free the earlier memory
-	free(p);
+	if (front==rear)					//only 1 element in Queue
+	{
+		node *p=front;
+		front=rear=NULL;
+		free(p);
+	}
+	else
+	{
+		node *p=front;
+		front=front->next;                              //move front to front->next and free the earlier memory
+		free(p);
+	}
 }
 
 void queue_front()
